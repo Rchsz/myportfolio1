@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: "Exo Space";
-    src: url("/fonts/Exo\ Space\ DEMO.ttf");
+    src: url("./fonts/Exo\ Space\ DEMO.ttf");
 }
 body{
     margin: 0;
@@ -51,4 +51,71 @@ h1{
 }
 .line3{
     width: 50%;
+}
+.help{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background-image: url(./img/background1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.help__peace{
+    width: 50px;
+    animation: move_image 1s infinite linear ;
+    transform-origin: center bottom;
+}
+.help__block{
+    width: 400px;
+    background-color: #123d266a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-family: "Exo Space";
+    font-size: 20px;
+    color: #10e956;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+
+}
+.help__text h1{
+    color: white;
+    font-family: "Exo Space";
+
+}
+.help__green{
+    font-family: "Cyborg";
+    color: #10e956;
+}
+.help__text{
+    width: 45%;
+}
+.help__under{
+    color: gray;
+    width: 90%;
+    font-family: "Exo Space";
+
+}
+@keyframes move_image {
+    0%{
+        transform: rotate(0deg) translateX(0) scale(100%);
+    }
+    25%{
+        transform: rotate(5deg) translateX(5px) scale(103%);
+    }
+    50%{
+        transform: rotate(0deg) translateX(0) scale(106%);
+    }
+    75%{
+        transform: rotate(-5deg) translateX(-5px) scale(103%);
+    }
+    100%{
+        transform: rotate(0deg) translateX(0) scale(100%);
+    }
+    
+
 }
