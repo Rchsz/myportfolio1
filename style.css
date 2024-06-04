@@ -275,3 +275,63 @@ h1{
         opacity: 0;
     }
 }
+@media screen and (max-width: 425px){
+    .help__block{
+        width: 250px;
+    }
+    .help{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .help__text{
+        width: 100%;
+    }
+    .tools{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .tools__card{
+        flex-direction: column;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 85px;
+    }
+    .phone{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    .phone__block{
+        width: 90%;
+    }
+    .header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    .tools__card{
+        width: 165px;
+    }
+    .tools h1{
+        margin-bottom: 30px;
+    }
+    .phone__block{
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .phone {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    
+}
