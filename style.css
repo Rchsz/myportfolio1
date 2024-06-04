@@ -127,7 +127,7 @@ h1{
     background-color: #050810;
 }
 .tools__card{
-    width: 120px;
+    width: 150px;
     background-color: greenyellow;
     display: flex;
     border-radius: 10px;
@@ -333,5 +333,5 @@ h1{
         padding-top: 0px;
         padding-bottom: 0;
     }
-    
+
 }
